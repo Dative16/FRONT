@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1e293b;
+  --color-secondary: #0f172a;
+  --color-accent: #3b82f6;
+  --color-bg-light: #f9fafb;
+  --color-card-light: #ffffff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-lightBg text-textPrimary font-sans;
+  margin: 0;
+}
+
+a {
+  @apply text-accent hover:underline;
+}
+
+button {
+  @apply rounded-lg px-4 py-2 font-medium transition-colors duration-200;
+}
