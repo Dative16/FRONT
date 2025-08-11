@@ -108,15 +108,6 @@ const Header: React.FC<HeaderProps> = ({
                 </button>
               )}
               
-              {/* Logo - responsive */}
-              <div className="flex items-center space-x-2">
-                <div className="w-7 h-7 sm:w-8 sm:h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center shadow-md">
-                  <span className="text-white font-bold text-xs sm:text-sm">S</span>
-                </div>
-                <span className={`font-bold text-gray-800 ${screenSize === 'mobile' ? 'text-lg' : 'text-xl'} ${screenSize === 'mobile' ? 'hidden' : 'block'}`}>
-                  SIMS
-                </span>
-              </div>
             </div>
 
             {/* Breadcrumb Navigation - Desktop only */}
